@@ -1,0 +1,21 @@
+body {
+  padding: 50px 25px 25px 25px;
+}
+
+container {
+  width: 400px;
+  margin: 0px auto;
+}
+
+.answer {
+  font-size: 18px;
+}
+
+li {
+  font-size: 18px;
+}
+
+.next-version {
+  visibility: hidden;
+}
+

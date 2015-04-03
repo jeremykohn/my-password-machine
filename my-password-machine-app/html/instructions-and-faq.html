@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+  <title>
+    My Password Machine - Instructions and Frequently Asked Questions
+  </title>
+
+  <link rel="stylesheet" href="../lib/bootstrap/bootstrap.min(3.3.1).css">
+  <link rel="stylesheet" href="../css/instructions-and-faq.css">
+
+</head>
+
+<body>
+
+  <div class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container">
+
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle next-version" data-toggle="collapse" data-target=".navbar-collapse">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="run#"></a>
+      </div>
+      <div class="collapse navbar-collapse next-version">
+        <ul class="nav navbar-nav next-version">
+          <li class="active"><a href="run#">Home</a></li>
+          <li><a href="run#about">About</a></li>
+          <li><a href="run#contact">Contact</a></li>
+        </ul>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="container">
+
+    <div class="text-center">
+      <br>
+      <h1>Frequently Asked Questions</h1>
+    </div>
+    <br>
+    <h3>What is My Password Machine?</h3>
+    <p class="answer">An app that gives you a completely different password for each website you visit.</p>
+    <br>
+    <h3>Why is it important to use different passwords?</h3>
+    <p class="answer">That way, if someone steals your password by hacking into <a href="https://en.wikipedia.org/wiki/2012_LinkedIn_hack">LinkedIn</a>, <a href="https://en.wikipedia.org/wiki/2011_PlayStation_Network_outage#Unencrypted_personal_details">Sony</a>, <a href="https://en.wikipedia.org/wiki/Adobe_Systems#Source_code_and_customer_data_breach">Adobe</a>, or another website, then the hacker will <em>only</em> have your password for that site -- your other passwords are safe.</p>
+    <br>
+    <h3>Have hackers really stolen passwords from those websites?</h3>
+    <p class="answer">Yes.</p>
+    <br>
+    <h3>Hm. All right, so how does My Password Machine work?</h3>
+    <p class="answer">First, you'll need a "master password" which will unlock all your other passwords.</p>
+    <p class="answer">When you use My Password Machine, the master password is the only password you will need to remember. So memorize it and don't let anyone else get it!</p>
+    <br>
+    <h3>How do I select a master password?</h3>
+    <p class="answer">Choose something that you can easily remember, and others cannot easily guess. </p>
+    <p class="answer">One good option is to roll dice to get random numbers. Then use a technique such as <a href="https://en.wikipedia.org/wiki/Diceware">Diceware</a> to convert those numbers into words. Put five or six random words together, memorize them, and you'll have a secure master password.</p>
+    <br>
+    <h3>Aren't passwords weak if they only include words? Shouldn't I add letters, numbers, and symbols?</h3>
+    <p class="answer">That doesn't always make it stronger! In reality, <em>what's in the password</em> isn't as important than <em>how you choose the password</em>.</p>
+    <p class="answer">Mathematically random passwords are the most secure. Check out<a href="https://blog.agilebits.com/2011/06/21/toward-better-master-passwords"> "Towards Better Master Passwords"</a> on the AgileBits blog for more info on how to choose a truly secure password.</p>
+    <br>
+    <h3>OK. So, back to My Password Machine. How do I use it?</h3>
+    <ol>
+      <li>Open a website (for example, youtube.com) and click "Log in."</li>
+      <li>On the login page (which might have a different address, like accounts.google.com), copy the URL (web address) from the address bar.</li>
+      <li>Open www.passwordmachine.com.</li>
+      <li>Paste the URL into the "Website name" field.</li>
+      <li>Enter your username for the website.</li>
+      <li>Enter your master password.</li>
+      <li>Click "Generate website password."</li>
+      <li>My Password Machine will give you a unique password for that website.</li>
+      <li>Copy that password, and paste it into the "Password" field in the website's login form.</li>
+    </ol>
+    <br>
+    <h3>So it's like a password manager.</h3>
+    <p class="answer">Not quite! Unlike an ordinary password manger, My Password Machine doesn't store your passwords. But you can retrieve your password for any website any time you want.</p>
+    <br>
+    <h3>How is that possible?</h3>
+    <p class="answer">My Password Machine applies a formula called a "hash" to the website name and user information. For example...</p>
+    <pre><code>   Website name:  example.com
+       Username:  joe-average
+Master password:  randomly-selected-memorable-words
+</code></pre>
+    <p class="answer">Put those together...</p>
+    <pre><code>example.com_joe-average_randomly-selected-memorable-words
+</code></pre>
+    <p class="answer">...and hash them, and you get something like:</p>
+    <pre><code>n9/SFj7Xu5RpLDvHLC+0Dg==
+</code></pre>
+    <p class="answer">And joe-average can use this as his password for example.com.</p>
+    <p class="answer">It can be re-created at any time by entering 'example.com', 'joe-average', and 'randomly-selected-memorable-words' into Password Machine. There's no need to write it down!</p>
+    <br>
+    <h3>So I can get a strong and unique password for every username and website, without storing a list of passwords that hackers can steal.</h3>
+    <p class="answer">Exactly!</p>
+    <br>
+    <h3>What if I already have a website account and password?</h3>
+    <p class="answer">Then you'll have to log in to that website and change your password there to the one that My Password Machine gives you.</p>
+    <p class="answer">But if your old password follows a well-known pattern -- such as a family member's name, or a keyboard pattern like "zxcvbnm", or a letter-symbol substitution like "My$ecretw0rd -- it's easy for hackers to guess and you should change it anyway!</p>
+    <p class="answer">My Password Machine creates passwords that don't follow a pattern, and so cannot be easily guessed.</p>
+    <h1></h1>
+
+  </div>
+
+</body>
+
+</html>

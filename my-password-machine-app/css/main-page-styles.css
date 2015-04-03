@@ -1,0 +1,40 @@
+body {
+  padding-top: 40px;
+  min-height: 600px;
+}
+
+.main-title {
+	font-size: 20pt;
+}
+
+.main-subtitle {
+	.font-size: 20px;
+}
+
+.well {
+	width: 350px;
+	margin: 0px auto;
+}
+
+#username-field {
+	placeholder: "New placeholder";
+}
+
+.entry-form-label {
+	font-size: 12pt;
+}
+
+.entry-form, .display-field {
+	width: 250px;
+	text-align: center;
+	font-style: italic;
+	font-size: 12pt;
+}
+
+.display-when-ready {
+	display: none;
+}
+
+.next-version {
+  visibility: hidden;
+}

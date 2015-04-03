@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+  <title>My Password Machine</title>
+
+  <link rel="stylesheet" href="../lib/bootstrap/bootstrap.min(3.3.1).css">
+  <link rel="stylesheet" href="../css/main-page-styles.css">
+
+  <script src="../lib/stackoverflow/get-host-name-from-url.js"></script>
+  <script src="../lib/punycode.js-master/punycode.js"></script>
+  <script src="../lib/publicsuffixlist.js-master/publicsuffixlist.js"></script>
+  <script src="../lib/scrypt/scrypt-async.js"></script>
+  <script src="../js/mpm-module.js"></script>
+  <script src="../js/main-page-script.js"></script>
+
+</head>
+
+
+<body>
+
+  <div class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container">
+
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle next-version" data-toggle="collapse" data-target=".navbar-collapse">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="run#"></a>
+      </div>
+      <div class="collapse navbar-collapse next-version">
+        <ul class="nav navbar-nav next-version">
+          <li class="active"><a href="run#">Home</a></li>
+          <li><a href="run#about">About</a></li>
+          <li><a href="run#contact">Contact</a></li>
+        </ul>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="container">
+
+    <div class="text-center">
+      <br>
+      <h1 class="main-title">My Password Machine</h1>
+      <h4 class="lead main-lead"><a href="basic-instructions.html">Click here for instructions.</a></h4>
+
+    </div>
+
+  </div>
+
+  <div class="container">
+
+    <div class="text-center">
+
+      <div class="well">
+        <form>
+          <label class="entry-form-label">Website name</label>
+          <br>
+          <input id="website-name-field" class="entry-form" type="text" placeholder="URL of the website's login page">
+          <br>
+          <br>
+          <label class="entry-form-label">Username</label>
+          <br>
+          <input id="username-field" class="entry-form" type="text" placeholder="Your website username">
+          <br>
+          <br>
+          <label class="entry-form-label">Master Password</label>
+          <br>
+          <input id="master-password-field" class="entry-form" type="password" placeholder="Keep this safe!">
+          <br>
+          <br>
+        </form>
+        <button id="generate-button" class="btn btn-default">Generate website password</button>
+        <br>
+        <br>
+        <div id="password-display-box" class="display-when-ready">
+          <form>
+            <label class="entry-form-label">Your website password</label>
+            <br>
+            <input id="display-website-password" class="display-field" placeholder="Website password here.">
+            <br>
+            <br>
+          </form>
+          To copy this password:
+          <br>Press Ctrl-C on Windows, or Command-C on Mac
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
+</body>
+
+</html>

@@ -1,0 +1,29 @@
+body {
+  padding: 50px 25px 25px 25px;
+}
+
+container {
+  width: 400px;
+  margin: 0px auto;
+}
+
+.well {
+	max-width: 450px;
+	margin: 0px auto;
+}
+
+.answer {
+  font-size: 16px;
+}
+
+li {
+  font-size: 16px;
+}
+
+.next-version {
+  visibility: hidden;
+}
+
+.online-screenshot {
+	width: 400px;
+}

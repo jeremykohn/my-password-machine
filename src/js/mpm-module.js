@@ -13,6 +13,7 @@ var MPM = (function() {
 
   function createSalt(params) {
     var salt = params.websiteName + params.username;
+alert(salt);
     return salt;
   }
 

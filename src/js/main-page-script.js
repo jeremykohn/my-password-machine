@@ -17,11 +17,11 @@
 
       // First, retrieve information from form fields.
       var inputs = {};
-      inputs.websiteName = websiteNameField.value;
+	  inputs.websiteName = websiteNameField.value;
       inputs.username = usernameField.value;
       inputs.masterPassword = masterPasswordField.value;
 
-      // Then, create website password.
+      // Then, use hash function to create website password.
       MPM.getWebsitePassword(inputs, function(generatedPassword) {
         websitePasswordField.value = generatedPassword; // Display newly generated password in form field.
         passwordDisplayBox.style.display = "block"; // Reveal hidden section of form.

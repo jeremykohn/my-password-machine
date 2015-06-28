@@ -24,6 +24,14 @@ li {
   visibility: hidden;
 }
 
-img {
-	width: 189px;
+@media screen and(max-width: 320px) {
+  img {
+    width: 189px;
+  }	
+}
+
+@media screen and(min-width: 321px) {
+  img {
+    width: 378px;
+  }	
 }

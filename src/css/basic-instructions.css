@@ -25,19 +25,19 @@ li {
 }
 
 @media screen and (max-width: 320px) {
-  img {
+  .online-screenshot {
     width: 189px;
   }	
 }
 
 @media screen and (min-width: 321px) and (max-width: 480px) {
-  img {
+  .online-screenshot {
     width: 280px;
   }	
 }
 
 @media screen and (min-width: 481px) {
-  img {
+  .online-screenshot {
     width: 378px;
   }	
 }

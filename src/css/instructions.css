@@ -16,7 +16,8 @@ body {
 }
 @media screen and (min-width: 321px) {
   .well {
-    width: 350px;
+    max-width: 450px;
+    min-width: 280px;
     margin: 0px auto;
   }
 }

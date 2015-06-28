@@ -24,6 +24,11 @@ li {
   visibility: hidden;
 }
 
+.online-screenshot {
+  border: 1px solid black;
+}
+
+
 @media screen and (max-width: 320px) {
   .online-screenshot {
     width: 189px;
@@ -38,6 +43,6 @@ li {
 
 @media screen and (min-width: 481px) {
   .online-screenshot {
-    width: 350px;
+    width: 340px;
   }	
 }

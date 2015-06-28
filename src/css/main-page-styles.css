@@ -1,6 +1,13 @@
 @media screen and (max-width: 320px) {
   .well {
-    width: 200px;
+    width: 290px;
+    margin: 0px auto;
+  }
+}
+
+@media screen and (min-width: 321px) {
+  .well {
+    width: 350px;
     margin: 0px auto;
   }
 }
@@ -16,11 +23,6 @@ body {
 
 .main-subtitle {
 	.font-size: 20px;
-}
-
-.well {
-	width: 290px;
-	margin: 0px auto;
 }
 
 #username-field {

@@ -1,3 +1,16 @@
+body {
+  padding-top: 40px;
+  min-height: 600px;
+}
+
+.main-title {
+	font-size: 20pt;
+}
+
+.main-subtitle {
+	.font-size: 20px;
+}
+
 @media screen and (max-width: 320px) {
   .well {
     width: 290px;
@@ -12,19 +25,6 @@
   }
 }
 
-body {
-  padding-top: 40px;
-  min-height: 600px;
-}
-
-.main-title {
-	font-size: 20pt;
-}
-
-.main-subtitle {
-	.font-size: 20px;
-}
-
 #username-field {
 	placeholder: "New placeholder";
 }
@@ -33,11 +33,22 @@ body {
 	font-size: 12pt;
 }
 
-.entry-form, .display-field {
+@media screen and (max-width: 320px) {
+  .entry-form, .display-field {
+	width: 240px;
+	text-align: center;
+	font-style: italic;
+	font-size: 12pt;
+  }
+}
+
+@media screen and (min-width: 321px) {
+  .entry-form, .display-field {
 	width: 250px;
 	text-align: center;
 	font-style: italic;
 	font-size: 12pt;
+  }
 }
 
 .display-when-ready {

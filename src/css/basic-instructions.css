@@ -19,13 +19,6 @@ width: 290px;
 margin: 0px auto 20px auto;
 }
 }
-@media screen and (min-width: 321px) {
-.well {
-width: 350px;
-margin: 0px auto;
-}
-
-
 
 
 .answer {

@@ -24,13 +24,19 @@ li {
   visibility: hidden;
 }
 
-@media screen and(max-width: 320px) {
+@media screen and (max-width: 320px) {
   img {
     width: 189px;
   }	
 }
 
-@media screen and(min-width: 321px) {
+@media screen and (min-width: 321px) and (max-width: 480px) {
+  img {
+    width: 250px;
+  }	
+}
+
+@media screen and (min-width: 481px) {
   img {
     width: 378px;
   }	

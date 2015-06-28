@@ -20,31 +20,6 @@ body {
     margin: 0px auto;
   }
 }
-#username-field {
-  placeholder: "New placeholder";
-}
-.entry-form-label {
-  font-size: 12pt;
-}
-@media screen and (max-width: 320px) {
-  .entry-form, .display-field {
-    width: 248px;
-    text-align: center;
-    font-style: italic;
-    font-size: 12pt;
-  }
-}
-@media screen and (min-width: 321px) {
-  .entry-form, .display-field {
-    width: 250px;
-    text-align: center;
-    font-style: italic;
-    font-size: 12pt;
-  }
-}
-.display-when-ready {
-  display: none;
-}
 .next-version {
   visibility: hidden;
 }

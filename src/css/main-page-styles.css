@@ -35,7 +35,7 @@ body {
 
 @media screen and (max-width: 320px) {
   .entry-form, .display-field {
-	width: 240px;
+	width: 248px;
 	text-align: center;
 	font-style: italic;
 	font-size: 12pt;

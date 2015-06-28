@@ -1,9 +1,9 @@
-@media screen and (max-width: 42em) {
+@media screen and (max-width: 240px) {
   .well {
     width: 300px;
     margin: 0px auto;
   }
-
+}
 
 body {
   padding-top: 40px;
